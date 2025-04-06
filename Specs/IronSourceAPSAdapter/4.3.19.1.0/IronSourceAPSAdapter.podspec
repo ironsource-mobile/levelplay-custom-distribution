@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://www.is.com/"
   s.license = { :type => 'Commercial', :text => 'https://platform.ironsrc.com/partners/terms-and-conditions-new-user' }
   s.author           = { "IronSource" => "http://www.is.com/contact/" }
-  s.source           = { :http => 'https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters-private/master/aps-adapter/4.3.19.1/ISAPSAdapter4.3.19.1.zip' }  
+  s.source           = { :http => 'https://s3.amazonaws.com/ssa.public/ironsource-mobile/ios-adapters/APS/4.3.19.1/ISAPSAdapter4.3.19.1.zip' }  
   s.source_files        = "ISAPSAdapter/ISAPSAdapter.xcframework/**/*.{h,m}"
   s.public_header_files = 'ISAPSAdapter/ISAPSAdapter.xcframework/**/*.h'
   s.preserve_paths = 'ISAPSAdapter/ISAPSAdapter.xcframework'
