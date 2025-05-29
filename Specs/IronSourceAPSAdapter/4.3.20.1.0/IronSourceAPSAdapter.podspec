@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source_files        = "ISAPSAdapter/ISAPSAdapter.xcframework/**/*.{h,m}"
   s.public_header_files = 'ISAPSAdapter/ISAPSAdapter.xcframework/**/*.h'
   s.preserve_paths = 'ISAPSAdapter/ISAPSAdapter.xcframework'
-  s.platform = :ios, '12.0'
+  s.platform = :ios, '13.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
   s.vendored_frameworks = 'ISAPSAdapter/ISAPSAdapter.xcframework'
   s.dependency 'IronSourceSDK', '~> 8.8'
